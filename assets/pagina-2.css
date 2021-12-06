@@ -1,0 +1,12 @@
+.card-text {
+    text-decoration: none;
+    display: block;
+    text-align: justify;
+}
+.contenedorimg {
+    min-height: 280px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}

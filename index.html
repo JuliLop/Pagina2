@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Venta de carros</title>
+    <link rel="stylesheet" href="assets/pagina-2.css" />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      rel="stylesheet"
+    />
+    <!-- Google Fonts -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.css"
+      rel="stylesheet"
+    />
+    <!-- MDB -->
+    <script
+      type="text/javascript"
+      src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.10.1/mdb.min.js"
+    ></script>
+  </head>
+
+  <body class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <!-- Container wrapper -->
+      <div class="container-fluid">
+        <!-- Toggle button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-mdb-toggle="collapse"
+          data-mdb-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <i class="fas fa-bars"></i>
+        </button>
+
+        <!-- Collapsible wrapper -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <!-- Navbar brand -->
+          <a class="navbar-brand mt-2 mt-lg-0" href="#">
+            <img src="assets/img/logo.jpg" height="50" alt="" loading="lazy" />
+          </a>
+          <!-- Left links -->
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Automoviles</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">SUVs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Comerciales</a>
+            </li>
+          </ul>
+          <!-- Left links -->
+        </div>
+        <!-- Collapsible wrapper -->
+
+        <!-- Right elements -->
+        <div class="d-flex align-items-center">
+          <!-- Icon -->
+          <a class="text-reset me-3" href="#">
+            <i class="fas fa-shopping-cart"></i>
+          </a>
+
+          <!-- Notifications -->
+          <a
+            class="text-reset me-3 dropdown-toggle hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <i class="fas fa-bell"></i>
+            <span class="badge rounded-pill badge-notification bg-danger"
+              >1</span
+            >
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">Some news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Another news</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </li>
+          </ul>
+
+          <!-- Avatar -->
+          <a
+            class="dropdown-toggle d-flex align-items-center hidden-arrow"
+            href="#"
+            id="navbarDropdownMenuLink"
+            role="button"
+            data-mdb-toggle="dropdown"
+            aria-expanded="false"
+          >
+            <img
+              src="assets/img/foto2.png"
+              class="rounded-circle"
+              height="25"
+              alt=""
+              loading="lazy"
+            />
+          </a>
+          <ul
+            class="dropdown-menu dropdown-menu-end"
+            aria-labelledby="navbarDropdownMenuLink"
+          >
+            <li>
+              <a class="dropdown-item" href="#">My profile</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Settings</a>
+            </li>
+            <li>
+              <a class="dropdown-item" href="#">Logout</a>
+            </li>
+          </ul>
+        </div>
+        <!-- Right elements -->
+      </div>
+      <!-- Container wrapper -->
+    </nav>
+    <!-- Navbar -->
+    <div
+      id="carouselExampleInterval"
+      class="carousel slide"
+      data-mdb-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-mdb-interval="10000">
+          <img
+            src="assets/img/carro1.jpg"
+            class="d-block w-100"
+            alt="buffalo-skyline"
+            width="700"
+            height="650"
+          />
+        </div>
+        <div class="carousel-item" data-mdb-interval="2000">
+          <img
+            src="assets/img/carro2.jpg"
+            class="d-block w-100"
+            alt="buffalo-skyline"
+            width="700"
+            height="650"
+          />
+        </div>
+        <div class="carousel-item">
+          <img
+            src="assets/img/carro3.jpg"
+            class="d-block w-100"
+            alt="buffalo-skyline"
+            width="700"
+            height="650"
+          />
+        </div>
+      </div>
+      <button
+        class="carousel-control-prev"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="prev"
+      >
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button
+        class="carousel-control-next"
+        data-mdb-target="#carouselExampleInterval"
+        type="button"
+        data-mdb-slide="next"
+      >
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100 p-4 m-4">
+          <div class="card-img-top contenedorimg">
+            <img src="assets/img/card1.jpg" class="img-fluid" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">CHEVROLET JOY SEDAN 2022</h5>
+            <p class="card-text">
+              PRECIO DE LANZAMIENTO, DISPONIBILIDAD INMEDIATA, DIVERSOS COLORES
+              Vehículo cero kilómetros Sujeto a condiciones y restricciones
+              Diversos planes de financiación a la medida. Financiamos hasta el
+              100% de tu próximo vehículo Excelente asesoría
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-4 m-4">
+          <div class="card-img-top contenedorimg">
+            <img src="assets/img/card2.jpg" class="img-fluid" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MOTOVALLE MAZDA</h5>
+            <p class="card-text">
+              Los invitamos a que hagan parte de esta gran familia MAZDA con
+              excelentes beneficios que solo MOTOVALLE MAZDA tiene para usted. -
+              FINANCIACIÓN DEL 100% - TASAS DE FINANCIACIÓN DESDE EL 0.7% -
+              RECIBIMOS SU USADO AL MEJOR PRECIO - BENEFICIOS EXCLUSIVOS -
+              AGENDA TU TEST DRIVE
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100 p-4 m-4">
+          <div class="card-img-top contenedorimg">
+            <img src="assets/img/card3.jpg" class="img-fluid" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">RENAULT SANDERO LIFE MT RN</h5>
+            <p class="card-text">
+              póliza contra todo riego por un año SOAT por un año* *aplica
+              condiciones y restricciones sujeto a aprobación de crédito por
+              medio de Renault Crédito financiación hasta el 100% del vehículo
+              pre aprobado en 10 minutos solo con la cedula planes con el 30% de
+              cuota inicial y seis meses sin intereses
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-80 p-4 m-4">
+          <div class="card-img-top contenedorimg">
+            <img src="assets/img/card4.png" class="img-fluid" alt="..." />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">BMW 128</h5>
+            <p class="card-text">
+              BMW 128 TI Año 2021 245 HP Motor 2.000CC TwinTurbo Caja Steptronic
+              de 8 velocidades con levas en el volante Paquete M-Asientos en
+              Alcántara de competición ajustables Sunroof Placa Para Bogotá
+              Rines 18" Llantas Runflat Android y Apple Carplay, 14.300 kms
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 p-4 m-4">
+          <div class="card-img-top contenedorimg">
+            <img
+              src="assets/img/card5.jpg"
+              class="img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">MAZDA 3</h5>
+            <p class="card-text">
+              Para Mazda Vardí es un gusto acompañarte en el proceso de compra
+              de su próximo vehículo Mazda. Hacemos parte de un grupo
+              empresarial con más de 55 años de trayectoria en Colombia
+              ofreciendo a nuestros clientes una experiencia en ventas y
+              servicio de vehículos con los mejores estándares de calidad.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-80 p-4 m-4">
+          <div class=" card-img-top contenedorimg">
+            <img
+              src="assets/img/card6.jpg"
+              class="img-fluid"
+              alt="..."
+            />
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">BMW Serie 1 1.6 116i F20 Sport Line</h5>
+            <p class="card-text">
+                Vehículo en perfecto estado
+                papeles al día
+                Mantenimiento al día
+                Cambio de aceite recién hecho
+                Discos de clutch
+                Clutch nuevo
+                batería nueva cambio de aceite
+                Se entrega con rines originales también
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
+
+<!-- Font Awesome -->
+
+<!-- Navbar -->
